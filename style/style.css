@@ -1,0 +1,181 @@
+:root {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    background-color: #EEEFF1;
+}
+
+.nav {
+    padding-top: 5rem;
+}
+
+.nav_box {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav_item {
+    list-style-type: none;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_link:hover {
+    text-decoration: underline;
+}
+
+.action {
+    color: #34547A;
+}
+
+.header_content {
+    max-width: 540px;
+    padding: 151px 0 141px;
+}
+
+.header_title {
+    margin-bottom: 60px;
+}
+
+.header_info {
+    margin-bottom: 65px;
+}
+
+.btn {
+    display: inline-block;
+    width: 100%;
+    max-width: 225px;
+    min-height: 65px;
+    padding: 19px 41px 20px;
+    color: white;
+    background-color: #34547A;
+    border: none;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #223854;
+}
+
+.about {
+    text-align: center;
+    padding-top: 112px;
+    padding-bottom: 100px;
+
+}
+
+.about_me {
+    margin-bottom: 50px;
+}
+
+.statistics {
+    background-color: #34547A;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.statistics_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+}
+
+.statistics_items {
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+.statistics_text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.statastics_number {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.statistics_project {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.view__demo {
+    width: 100%;
+    padding: 100px 0 100px;
+    background-color: #EEEFF1;
+}
+
+.view_demo_box {
+    text-align: center;
+}
+
+.view_demo_title {
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.view_demo_text {
+    max-width: 540px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 57px;
+}
+
+.view_demo_video {
+    width: 100%;
+    min-height: 600px;
+}
+
+.footer {
+    background-color: #34547A;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: white;
+}
+
+.author {
+    display: block;
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
